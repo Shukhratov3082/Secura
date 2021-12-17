@@ -1,6 +1,5 @@
 .section-1 {
-    padding: 40px 375px 0 375px;
-    
+    padding: 40px 170px 0 170px;
     @media (max-width: 1440px) {
         padding: 40px 200px 0 200px;
     }
@@ -10,7 +9,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;    
-
+        margin-bottom: 100px;
         nav {
             display: flex;
             align-items: center;
@@ -43,11 +42,117 @@
                 }
             }
         }
+            .batareya{
+                position: absolute;
+                top: 540px;
+                left: 1020px;
+            }
     }
 
-    main {
-        height: calc(100vh - 62px - 40px);
-        background-color: red;
-    
-    }
+    main{
+     margin-bottom: 250px;
+        .box1{
+            display: flex;
+            align-items: center;
+            gap: 175px;
+                div{
+                          h1{
+                              font-weight: bold;
+                              font-size: 80px;
+                              line-height: 134%;
+                              letter-spacing: -2.50105px;
+                              color: $mainBlack;
+                          }
+                          .chiziq{
+                              position: relative;
+                          }
+                          p{
+                              color: $mainBlack;
+                              margin-bottom: 48px;
+                              font-size: 14px;
+                              line-height: 200%;
+                              margin-top: 17px;
+                          }
+                         div{
+                             display: flex;
+                             gap: 26px;
+                         }
+                     }
+                   button{
+                       width: 197px;
+                       height: 67.01px;
+                       background-color: $orange;
+                       padding: 19px 50px;
+                       border-radius: 40px;
+                       border: 0;
+                       color: white;
+                       font-size: 18px;
+                       
+                   }
+                   .button2{
+                       width: 243px;
+                       height: 67.01px;
+                       border-radius: 40px;
+                       background-color: white;
+                       border: 1px solid $orange;
+                       color: $mainBlack;
+                       font-weight: 600;
+                       font-size: 18px;
+                 
+                   }
+        }
+        }
+        .box2{
+            width: 100%;
+            height: 890px;
+            h2{
+                font-size: 54px;
+                color: $mainBlack;
+                text-align: center;
+            }
+            .box3kontainer{
+                margin-top: 100px;
+               display: flex;
+               gap: 30px;
+            
+                div{
+                    padding: 40px 37px;
+                    width: 370px;
+                    height: 398px;
+                    box-shadow: 0px 30px 80px rgba(102, 102, 102, 0.08);
+                    border-radius: 10px;
+                    h3{
+                        margin: 40px 0 40px 0;
+                        font-family: "Poppins Medium";
+                        font-size: 28px;
+                        letter-spacing: -0.656526px;
+                        color: $mainBlack;
+                    }
+                    p{
+                        font-size: 20px;
+                        line-height: 200%;
+                        margin-bottom: 40px;
+                        color: $mainBlack;
+                    }
+                }
+            }
+        }
+        .box3{
+            width: 100%;
+            padding: 0 0 0 590px;
+            h2{
+                font-weight: 600;
+                font-size: 54px;
+                line-height: 134%;
+                color: $mainBlack;
+                margin-bottom: 24px;
+            }
+            p{
+                margin-bottom: 40px;
+                font-size: 20px;
+                line-height: 200%;
+            }
+        }
+
+  
 }
