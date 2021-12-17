@@ -199,7 +199,9 @@
 
 .section-1 .box3 {
   width: 100%;
+  position: relative;
   padding: 0 0 0 590px;
+  margin-bottom: 114px;
 }
 
 .section-1 .box3 h2 {
@@ -214,6 +216,86 @@
   margin-bottom: 40px;
   font-size: 20px;
   line-height: 200%;
+}
+
+.section-1 .box3 .moshina2 {
+  width: 680px;
+  position: absolute;
+  left: -79px;
+  top: 53px;
+}
+
+.section-1 .box3 .moshina-orqa {
+  position: absolute;
+  z-index: -1;
+  left: -36px;
+  top: 90px;
+}
+
+.section-1 .box3 .dumaloqlar {
+  position: absolute;
+  top: 200px;
+  left: -5px;
+  width: 560px;
+}
+
+.section-1 .box3 .div4tali {
+  width: 500px;
+  height: 115.01px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  gap: 19px;
+  text-align: start;
+  padding: 40px 47px 40px 20px;
+  background: #FFFFFF;
+  border: 1px solid #80808021;
+  -webkit-box-shadow: 0px 30px 80px rgba(49, 48, 48, 0.08);
+          box-shadow: 0px 30px 80px rgba(49, 48, 48, 0.08);
+  border-radius: 15px;
+  margin-bottom: 25px;
+}
+
+.section-1 .box3 .div4tali p {
+  margin: 0;
+}
+
+.section-1 .box3 .div4tali img {
+  position: absolute;
+  left: 36px;
+}
+
+.section-1 .box3 .div4tali div {
+  width: 56px;
+  height: 56px;
+  background: #FF7132;
+  border-radius: 50%;
+  opacity: 0.2;
+}
+
+.box4 {
+  width: 100%;
+  padding: 340px 375px 102px 375px;
+}
+
+.box4 h4 {
+  font-size: 54px;
+  line-height: 134%;
+  color: #444444;
+  font-family: "Poppins SemiBold";
+  text-align: center;
+}
+
+.box4 p {
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  color: #888888;
+  font-family: "Poppins Medium";
 }
 
 body {
