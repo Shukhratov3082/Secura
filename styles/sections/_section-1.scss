@@ -209,7 +209,7 @@
 }
 .box4{
     width: 100%;
-    padding: 340px 375px 102px 375px;
+    padding: 50px 240px 102px 240px;
 
     h4{
         font-size: 54px;
@@ -224,63 +224,204 @@
         text-align: center;
         color: #888888;
         font-family: "Poppins Medium";
+        margin-bottom: 80px;
     
     }
-    // h4{
-    //     font-size: 54px;
-    //     line-height: 134%;
-    //     color: $mainBlack;
-    //     font-family: "Poppins SemiBold";
-    //     text-align: center;
-    //     margin-bottom: 50px;
-    // }
-    // div{         
-    //     width: 1032px;
-    //     height: 326px;
-    //     box-shadow: 0px 15px 40px rgba(102, 102, 102, 0.05);
-    //     border-radius: 5px;
-    //     margin-bottom: 271px;
-    //     padding: 43px 140px 43px 182px;
-    //     h5{
-    //         font-size: 36px;
-    //         line-height: 100%;
-    //         color: $mainBlack;
-    //         font-family: "Poppins Medium";
-    //     }
-    //     .p-1{
-    //         font-size: 18px;
-    //         color: #888888;
-    //         margin:  10px 0 30px 0;
-    //     }
-    //     p{
-    //         font-size: 20px;
-    //         line-height: 200%;
-    //         color: #666666;
-    //     }
-    // }
-    // h5{
-    //     font-size: 36px;
-    //     line-height: 100%;
-    //     color: $mainBlack;
-    //     font-family: "Poppins Medium";
-    // }
-    // .p-2{
-    //     margin-top: 20px;
-    //     font-size: 22px;
-    //     line-height: 36px;
-    //     opacity: 0.7;
-    // }
-    // hr{
-        
-    //     position: absolute;
-    //     width: 627px;
-    //     height: 1px;
-    //     left: 390px;
+    .box4-div{
+        display: flex;
+        gap: 122px;
+        align-items: center;
+        text-align: start;
+        margin-bottom: 170px;
+      
+        h2{
+            font-family: "Poppins SemiBold";
+            font-size: 42px;
+            line-height: 134%;
+            margin-bottom: 24px;
+            color: #444444;
+        }
+        .securiy-p{
+            font-family: "Poppins Medium";
+            font-size: 28px;
+            line-height: 100%;
+            margin-bottom: 30px;
+        }
+        p{
+            text-align: start;
+            font-size: 20px;
+            line-height: 200%;
+            margin-bottom: 30px;
+        }
+        button{
+            width: 198px;
+            height: 67px;
+            border-radius: 40px;
+            border: 1px solid #FF7132
+        }
+        img{
+            position: absolute;
+            right: 70px;
+            width: 670px;
+        }
+    }
+    .box4-div2{
+        display: flex;
+        gap: 122px;
+        align-items: center;
+        margin-left: 553px;
 
+        img{
+            position: absolute;
+            left: 70px;
+            width: 670px;
+        }
+        button{
+            width: 197px;
+            height: 67px;
+            padding: 20px 50px;
+            border: 0;
+            color: white;
+            background: #FF7132;
+            border-radius: 40px;
+            font-family: "Poppins SemiBold";
+            font-size: 18px;
+            margin-top: 40px;
+        }
+       div{
 
-    //     background: #202020;
-
-    //     opacity: 0.08;
-    // }
+        h2{
+            font-family: "Poppins SemiBold";
+            font-size: 42px;
+            line-height: 134%;
+            color: #444444;
+            margin-bottom: 20px;
+        }
+        .adding{
+            text-align: start;
+            margin-bottom: 30px;
+        }
+        ol{
+            margin-left: 20px;
+        font-size: 20px;
+        line-height: 200%;
+        color: #888888;
+    }
+       }
 }
+}
+.box5{
+    .box5-div1{
+        display: flex;
+        padding: 160px 151px 172px 140px;
+        position: relative;
+    h4{
+        font-size: 54px;
+        line-height: 134%;
+        color: $mainBlack;
+        font-family: "Poppins SemiBold";
+        text-align: start;
+       margin-top: 210px;
+    }
+    .box-img{
+        width: 100px;
+        height: 100px;
+        padding: 40px 39px;
+        background-color: $orange;
 
+    }
+    div{         
+        text-align: start;  
+        .box5-divtext{
+            width: 870px;
+            height: 326px;
+            position: absolute;
+            top: 462px;
+            left: 537px;
+            box-shadow: 0px 15px 40px rgba(102, 102, 102, 0.05);
+            border-radius: 5px;
+            background-color: white;
+            padding: 57px 146px 57px 182px;
+                 h5{
+                     font-size: 34px;
+                     line-height: 100%;
+                     color: $mainBlack;
+                     font-family: "Poppins Medium";
+                 }
+                 .p-1{
+                     font-size: 16px;
+                     color: #888888;
+                     margin:  10px 0 30px 0;
+                 }
+                 p{
+                     font-size: 16px;
+                     line-height: 200%;
+                     color: #666666;
+                 }
+         }
+        }
+ 
+   }
+       .box5-div2{
+           padding: 0 0 0 300px;
+            h5{
+                font-size: 36px;
+                line-height: 100%;
+                color: $mainBlack;
+                font-family: "Poppins Medium";
+                margin-bottom: 20px;
+            }
+            .p-2{
+                margin-top: 20px;
+                font-size: 22px;
+                line-height: 36px;
+                opacity: 0.7;
+            }
+            hr{
+                width: 535px;
+                margin: 14px 0 28px 0;
+            opacity: 0.08;
+            background: #444343;
+
+
+            }
+            div{
+                width: 535px;
+                margin-bottom: 12px;
+                display: flex;
+                justify-content: space-between;
+                p{
+                    font-size: 20px;
+                    line-height: 30px;
+                    color: #FF7132;
+                }
+            }
+            .keyp{
+
+                font-size: 18px;
+                line-height: 200%;
+                color: #202020;  
+                opacity: 0.7;
+            }
+            .hr2{
+                width: 535px;
+                margin: 28px 0 24px 0;
+            opacity: 0.08;
+            background: #302f2f;
+
+
+            }
+            .hr3{
+                width: 535px;
+                margin: 24px 0 24px 0;
+            opacity: 0.08;
+            background: #2c2b2b;
+
+            }
+            .p{
+                font-size: 20px;
+                line-height: 30px;
+                color: #666666;
+            }
+       }
+}
