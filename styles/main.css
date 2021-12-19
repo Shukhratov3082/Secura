@@ -346,6 +346,13 @@
   width: 670px;
 }
 
+.box4 .box4-div .imgyoutube1 {
+  position: absolute;
+  right: 335px;
+  width: 171px;
+  height: 174px;
+}
+
 .box4 .box4-div2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -361,6 +368,13 @@
   position: absolute;
   left: 70px;
   width: 670px;
+}
+
+.box4 .box4-div2 .imgyoutube {
+  position: absolute;
+  left: 345px;
+  width: 171px;
+  height: 174px;
 }
 
 .box4 .box4-div2 button {
